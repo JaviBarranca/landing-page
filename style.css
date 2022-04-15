@@ -61,3 +61,15 @@ a {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
