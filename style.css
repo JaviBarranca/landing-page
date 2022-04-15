@@ -33,3 +33,24 @@ a {
     width: 400px;
     height: 200px;
 }
+
+.content-title {
+    align-self: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+
+}
+.content img {
+    width: 140px;
+    height: 140px;
+}
+
+.content .info {
+    max-width: 140px;
+    text-align: center;
+}
