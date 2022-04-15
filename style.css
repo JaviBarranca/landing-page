@@ -54,3 +54,10 @@ a {
     max-width: 140px;
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
