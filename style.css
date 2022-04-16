@@ -8,6 +8,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 ul {
@@ -26,7 +27,12 @@ a {
 .intro {
     display: flex;
     padding: 20px 0px;
-    gap: 0px 100px;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.intro .container-left {
+    width: 500px;
 }
 
 .containter-img, img {
@@ -60,16 +66,20 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #E5E7EB;
 }
 
 .action {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #3882f6;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1F2937;
+
 }
