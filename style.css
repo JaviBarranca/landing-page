@@ -73,6 +73,8 @@ a:link {
 .content img {
     width: 140px;
     height: 140px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
 }
 
 .content .info {
@@ -88,11 +90,23 @@ a:link {
     background-color: #E5E7EB;
 }
 
+.quote h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
 .action {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.action h4 {
+    color: #F9FAF8;
 }
 
 .footer {
@@ -100,7 +114,7 @@ a:link {
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
-
+    color: #E5E7EB;
 }
 
 button {
