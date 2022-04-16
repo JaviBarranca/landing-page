@@ -9,6 +9,12 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
+    font-size: 18px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 ul {
@@ -17,11 +23,14 @@ ul {
     gap: 16px;
     margin: 0px;
     padding: 0px;
-
 }
 
 a {
     text-decoration: none;
+}
+
+a:link {
+    color: #E5E7EB;
 }
 
 .intro {
@@ -33,6 +42,13 @@ a {
 
 .intro .container-left {
     width: 500px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.intro h1 {
+    color: #F9FAF8;
+    font-size: 48px;
 }
 
 .containter-img, img {
@@ -42,6 +58,9 @@ a {
 
 .content-title {
     align-self: center;
+    color: #1F2937;
+    font-size: 36px;
+    font: bolder;
 }
 
 .content {
@@ -82,4 +101,20 @@ a {
     justify-content: center;
     background-color: #1F2937;
 
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #1F2937;
+}
+
+.action button {
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style: solid;
 }
