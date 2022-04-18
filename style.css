@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', 'Open Sans', 'Arial';
 }
 
 /*header section*/
