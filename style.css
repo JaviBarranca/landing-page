@@ -3,6 +3,7 @@ body {
     flex-direction: column;
 }
 
+/*header section*/
 .header {
     display: flex;
     align-items: center;
@@ -33,6 +34,7 @@ a:link {
     color: #E5E7EB;
 }
 
+/*intro section*/
 .intro {
     display: flex;
     padding: 20px 0px;
@@ -52,24 +54,15 @@ a:link {
     font-size: 48px;
     font-weight: bolder;
     width: 400px;
+    margin: 0px 0px -10px 0px;
 }
 
 .intro p {
     width: 400px;
+    margin-bottom: 5px;
 }
 
-.containter-img, img {
-    width: 500px;
-    height: 200px;
-}
-
-.content-title {
-    align-self: center;
-    color: #1F2937;
-    font-size: 36px;
-    font: bolder;
-}
-
+/*content section*/
 .content {
     display: flex;
     align-items: center;
@@ -77,6 +70,7 @@ a:link {
     gap: 52px;
     padding: 0px 250px 100px 250px;
 }
+
 .content img {
     width: 140px;
     height: 140px;
@@ -89,28 +83,51 @@ a:link {
     text-align: center;
 }
 
-.quote {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #E5E7EB;
-    padding: 90px 350px;
-
+.containter-img,
+img {
+    width: 500px;
+    height: 230px;
 }
 
-.quote h3 {
+.content-title {
+    align-self: center;
+    color: #1F2937;
+    font-size: 36px;
+    font: bolder;
+}
+
+/*quote section*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 90px 0px;
+}
+
+.quote-text {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    width: 750px;
+    margin: 0px;
+}
+
+.quote-author {
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 600px;
+    font-weight: bold;
+    margin-bottom: 1em;
 }
 
 .quote p {
-    display: flex;
-    align-self: flex-end;
+    margin-bottom: 0px;
 }
 
+/*action section*/
 .action {
     display: flex;
     align-items: center;
@@ -123,6 +140,13 @@ a:link {
     color: #F9FAF8;
 }
 
+.action button {
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/*footer section*/
 .footer {
     display: flex;
     align-items: center;
@@ -131,6 +155,7 @@ a:link {
     color: #E5E7EB;
 }
 
+/*other*/
 button {
     color: #F9FAF8;
     background-color: #3882f6;
@@ -139,10 +164,4 @@ button {
     border-radius: 10px;
     border-width: 2px;
     border-color: #1F2937;
-}
-
-.action button {
-    border-color: #F9FAF8;
-    border-width: 2px;
-    border-style: solid;
 }
